@@ -1,0 +1,10 @@
+[
+null,
+{"id":1,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"ぼくとう","note":"","params":[0,0,7,0,0,0,0,0],"price":3,"wtypeId":2},
+{"id":2,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"こんぼう","note":"","params":[0,0,10,0,0,0,0,0],"price":30,"wtypeId":0},
+{"id":3,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"どうのつるぎ","note":"","params":[0,5,12,0,0,0,0,0],"price":100,"wtypeId":2},
+{"id":4,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":22,"dataId":2,"value":0.01}],"iconIndex":93,"name":"ナイフ","note":"","params":[0,0,14,0,0,0,0,0],"price":200,"wtypeId":1},
+{"id":5,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"ひのゆみ","note":"","params":[0,0,18,0,0,0,0,0],"price":350,"wtypeId":8},
+{"id":6,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"くさりがま","note":"","params":[0,0,20,0,0,0,0,0],"price":550,"wtypeId":0},
+{"id":7,"animationId":3,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":43,"dataId":9,"value":1}],"iconIndex":0,"name":"さんこうしょ","note":"","params":[0,5,3,0,8,0,0,0],"price":200,"wtypeId":0}
+]
