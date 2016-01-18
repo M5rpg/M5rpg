@@ -3,5 +3,10 @@ null,
 {"id":1,"atypeId":5,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":128,"name":"かわの盾","note":"","params":[0,0,0,4,0,0,0,0],"price":95},
 {"id":2,"atypeId":1,"description":"","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":130,"name":"かわの帽子","note":"","params":[0,0,0,3,0,0,0,0],"price":65},
 {"id":3,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":135,"name":"かわのよろい","note":"","params":[0,0,0,12,0,0,0,0],"price":180},
-{"id":4,"atypeId":1,"description":"","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"木の指輪","note":"","params":[0,0,0,3,10,0,0,0],"price":200}
+{"id":4,"atypeId":1,"description":"","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"木の指輪","note":"","params":[0,0,0,3,10,0,0,0],"price":200},
+{"id":5,"atypeId":1,"description":"","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"きのぼうし","note":"","params":[0,0,0,7,0,0,0,0],"price":120},
+{"id":6,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"せいどうのよろい","note":"","params":[0,0,0,25,0,0,0,0],"price":700},
+{"id":7,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"てつのよろい","note":"","params":[0,0,0,30,0,0,0,0],"price":1200},
+{"id":8,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"うろこのたて","note":"","params":[0,0,0,7,0,0,0,0],"price":180},
+{"id":9,"atypeId":1,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"てつのたて","note":"","params":[0,0,0,12,0,0,0,0],"price":650}
 ]
