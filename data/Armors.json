@@ -7,6 +7,6 @@ null,
 {"id":5,"atypeId":1,"description":"","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"きのぼうし","note":"","params":[0,0,0,7,0,0,0,0],"price":120},
 {"id":6,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"せいどうのよろい","note":"","params":[0,0,0,25,0,0,0,0],"price":700},
 {"id":7,"atypeId":1,"description":"","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"てつのよろい","note":"","params":[0,0,0,30,0,0,0,0],"price":1200},
-{"id":8,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"うろこのたて","note":"","params":[0,0,0,7,0,0,0,0],"price":180},
+{"id":8,"atypeId":1,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"うろこのたて","note":"","params":[0,0,0,7,0,0,0,0],"price":180},
 {"id":9,"atypeId":1,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"てつのたて","note":"","params":[0,0,0,12,0,0,0,0],"price":650}
 ]

@@ -1,6 +1,6 @@
 {
  "name": "m5quest",
- "xwalk_version": "1.0.2",
+ "xwalk_version": "1.0.3",
  "start_url": "index.html",
  "display": "fullscreen",
  "orientation": "landscape",
