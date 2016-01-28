@@ -4,7 +4,7 @@ var $plugins =
 [
 {"name":"TkoolMV_PluginCommandBook","status":false,"description":"プラグインコマンド集","parameters":{"制御文字の拡張":"はい"}},
 {"name":"OrangeCustomEvents","status":true,"description":"This plugin Will let you add or copy events to the current map","parameters":{}},
-{"name":"AdjustPictureGraphical","status":false,"description":"ピクチャのグラフィカルな位置調整プラグイン","parameters":{}},
+{"name":"AdjustPictureGraphical","status":true,"description":"ピクチャのグラフィカルな位置調整プラグイン","parameters":{}},
 {"name":"BattleBalanceCustom","status":true,"description":"デフォルトで変更できない戦闘バランスを調整します。","parameters":{"criRate":"2","lukRate":"0.001","maxBuff":"4","buffRate":"0.25","iconBussStart":"32,40","iconDebussStart":"48,56","initTpRand":"25","initTpPlus":"0","damageTpBase":"50","damageTpPlus":"0"}},
 {"name":"PictureCallCommon","status":false,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"ON","ピクチャ番号の変数番号":"21"}},
 {"name":"HIME_EquipSlotsCore","status":false,"description":"Provides you with tools to set up custom equip slots for\r\neach actor individually.","parameters":{}},
@@ -16,7 +16,7 @@ var $plugins =
 {"name":"SSEP_BattleSpeedUp_v2","status":true,"description":"[ver2.01] 戦闘速度を上げるプラグインです。YanflyEngine対応。\n利用時は、必ずYanflyEngineの後に読み込んでください。","parameters":{"---General Setting---":"","BattleSpeed (Default)":"1","BattleSpeed (Boost)":"2","OkayKeyBoost":"true","VisibleSwitch":"true","BoostToggleSwitch":"shift","---Detail Setting---":"","StateIcon":"40","StateOverlay":"8","Weapon":"12","Motion":"12","Balloon":"12","Damage":"90","DamageMin":"60","--BattleLog Setting--":"","LogAnime BaseDelay":"8","LogAnime NextDelay":"12","LogWaitCount Default":"1","LogWaitCount Boost":"2","---Switch Setting---":"","SE BoostON":"Decision2","SE BoostOFF":"Decision2","SE Volume":"50","SwitchImage":"Balloon","SwitchX":"10","SwitchY":"10","SwitchWidth":"48","SwitchHeight":"48","SwitchTop":"2","SwitchLeft":"1","SwitchAnimePattern":"8","SwitchAnimeSpeed":"5","---YEP BattleCore---":"","YEP Battle MotionWait":"20","---YEP ATB---":"","YEP ATB BoostSwitch":"true","---ATB Speed---":"","ATB Speed(Default)":"1","ATB Speed(Boost)":"2","---YEP Victory AM---":"","YEP Victory Wait":"true"}},
 {"name":"enemybars","status":true,"description":"Makes enemy hp bar appear in battle.","parameters":{"High HP Color":"#009900","Medium HP Color":"#ffcc00","Low HP Color":"#ff6600","Critical HP Color":"#ff3300"}},
 {"name":"Yami_8DIR","status":true,"description":"プレイヤーの8方向の移動が可能になります。","parameters":{}},
-{"name":"MPP_ChoiceEX","status":false,"description":"【MPP】選択肢の機能拡張","parameters":{"maxPageRow":"8"}},
+{"name":"MPP_ChoiceEX","status":true,"description":"【MPP】選択肢の機能拡張","parameters":{"maxPageRow":"8"}},
 {"name":"PictureVariableSetting","status":true,"description":"ピクチャの変数設定プラグイン","parameters":{"初期値":"OFF"}},
 {"name":"Torigoya_QuickSkill","status":false,"description":"選択するとターンを消費せずに即発動するスキルを追加します。","parameters":{}},
 {"name":"YEP_SkillCore","status":false,"description":"スキルシステムにより多くの機能を実装し、\r\nコストの設定などができるようになります。","parameters":{"---一般---":"","Cost Padding":"4","Command Alignment":"center","---HP消費---":"","HP Format":"%1%2","HP Font Size":"20","HP Text Color":"18","HP Icon":"162","---MP消費---":"","MP Format":"%1%2","MP Font Size":"20","MP Text Color":"23","MP Icon":"165","---TP Costs---":"","TP Format":"%1%2","TP Font Size":"20","TP Text Color":"29","TP Icon":"164"}},
