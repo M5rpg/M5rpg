@@ -4812,7 +4812,7 @@ function createResolver(folder) {
     };
 }
 
-var dirs = ['animations', 'battlebacks1', 'battlebacks2', 'characters', 'enemies', 'parallaxes', 'pictures', 'sv_actors', 'sv_enemies', 'system', 'tilesets', 'titles1', 'titles2'];
+var dirs = ['animations', 'battlebacks1', 'battlebacks2', 'characters', 'enemies', 'faces', 'parallaxes', 'pictures', 'sv_actors', 'sv_enemies', 'system', 'tilesets', 'titles1', 'titles2'];
 
 var c = {};
 var _iteratorNormalCompletion = true;
@@ -4975,7 +4975,7 @@ ImageManager.loadUsedImages = function (mapData) {
     var animations = resolveAnimation(enumParam(events, NOCONV, 212, 1, 337, 1));
     var tilesets = resolveTilesets(enumParam(events, NOCONV, 282, 0));
 
-    return [].concat(animations, tilesets, enumParam(events, c.battlebacks1, 283, 0), enumParam(events, c.battlebacks2, 283, 1), enumParam(events, c.parallaxes, 284, 0), enumParam(events, c.pictures, 231, 1));
+    return [].concat(animations, tilesets, enumParam(events, c.battlebacks1, 283, 0), enumParam(events, c.battlebacks2, 283, 1), enumParam(events, c.faces, 322, 3, 101, 0), enumParam(events, c.parallaxes, 284, 0), enumParam(events, c.pictures, 231, 1));
 };
 
 ImageManager.clearOnLeaveMap = function () {
