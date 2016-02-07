@@ -23,7 +23,7 @@
   Game_Player.prototype.update = function(sceneActive) {
     _Game_Player_update.call(this, sceneActive);
     if ($gameParty.leader()) {
-      this.setStepAnime($gameParty.leader().actor().meta.stepanim || false);
+      this.setStepAnime($gameParty.leader().actor().meta.stepanim || true);
     }
   };
 
@@ -31,7 +31,7 @@
   Game_Follower.prototype.update = function() {
     _Game_Follower_update.call(this);
     if (this.actor()) {
-      this.setStepAnime(this.actor().actor().meta.stepanim || false);
+      this.setStepAnime(this.actor().actor().meta.stepanim || true);
     }
   };
 })();
