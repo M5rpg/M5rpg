@@ -31,8 +31,8 @@
 	var shift = 0.5;
 	Game_CharacterBase.prototype.updateAnimationCount = function() {
     if (this.isMoving() && this.hasWalkAnime()) {
-        this._animationCount += shift;
+        this._animationCount += 1.5;
     } else if (this.hasStepAnime() || !this.isOriginalPattern()) {
-        this._animationCount++;
+        this._animationCount += shift;
     }
 })();
