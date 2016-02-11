@@ -29,10 +29,11 @@
 
 (function(){
 	var shift = 0.5;
-	Game_CharacterBase.prototype.updateAnimationCount = function() {
-    if (this.isMoving() && this.hasWalkAnime()) {
-        this._animationCount += 1.5;
-    } else if (this.hasStepAnime() || !this.isOriginalPattern()) {
-        this._animationCount += shift;
+	Game_CharacterBase.prototype.updatePattern = function() {
+    if (!this.hasStepAnime() && this._stopCount > 0) {
+        this.resetPattern();
+    } else {
+        this._pattern = (this._pattern + shift) % this.maxPattern();
     }
+};
 })();
