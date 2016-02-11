@@ -31,5 +31,5 @@ var $plugins =
 {"name":"YEP_MessageCore","status":true,"description":"メッセージの表示方法や機能をカスタマイズすることができます。","parameters":{"---一般---":"","Default Rows":"4","Default Width":"Graphics.boxWidth","Face Indent":"Window_Base._faceWidth + 24","Fast Forward":"Input.isPressed('pagedown')","Word Wrapping":"false","Description Wrap":"false","---フォント---":"","Font Name":"GameFont","Font Size":"28","Font Size Change":"12","Font Changed Max":"96","Font Changed Min":"12","---Name Box---":"","Name Box Buffer X":"-28","Name Box Buffer Y":"0","Name Box Padding":"this.standardPadding() * 4","Name Box Color":"0","Name Box Clear":"false","Name Box Added Text":"\\c[6]"}},
 {"name":"AKUNOU_OptionWindowOpacity","status":true,"description":"オプションにウィンドウ透明度の変更を追加します。","parameters":{"Window Opacity Term":"ウィンドウ透明度","Window Opacity Offset":"0","Window Opacity Default":"255"}},
 {"name":"mv_actor_stepping_animation","status":true,"description":"Allows party leader/followers to have stepping anim on map","parameters":{}},
-{"name":"StepAnimeSpeed","status":true,"description":"ステップアニメの速度の変更","parameters":{"shift":"100"}}
+{"name":"StepAnimeSpeed","status":true,"description":"ステップアニメの速度の変更","parameters":{"shift":"0.5"}}
 ];

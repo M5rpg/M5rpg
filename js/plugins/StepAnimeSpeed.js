@@ -29,12 +29,7 @@
 
 (function(){
 	var shift = 100;
-Game_CharacterBase.prototype.updateAnimation = function() {
-    this.updateAnimationCount();
-    if (this._animationCount >= this.animationWait()) {
-        this.updatePattern();
-        this._animationCount = 0 - shift;
-    }
-};
-};
+	Game_CharacterBase.prototype.animationWait = function() {
+    return (9 - this.realMoveSpeed()) * shift;
+  };
 })();
