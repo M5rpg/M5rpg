@@ -3,12 +3,12 @@
 //=========================================================
 
 /*:
- * @plugindesc Plugin sample to set monsters left-side.
- * @author aueki
+ * @plugindesc Plugin  to set charactors steping animation.
+ * @author miyoshi
  *
  * @param shift
- * @desc Value to add x. 
- * @default -150
+ * @desc Value to add shift. 
+ * @default 2.5
  *
  *
  * @help This plugin does not provide plugin commands.
@@ -21,14 +21,14 @@
  *
  * @param shift
  * @desc スピード変更
- * @default 100
+ * @default 2.5
  *
  * @help このプラグインには、プラグインコマンドはありません。
  * キャラクター歩行時のステップアニメの速度を変更します。
 */
 
 (function(){
-	var shift = 100;
+	var shift = 2.5;
 	Game_CharacterBase.prototype.animationWait = function() {
     return (9 - this.realMoveSpeed()) * shift;
   };
