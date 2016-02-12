@@ -21,14 +21,14 @@
  *
  * @param shift
  * @desc スピード変更
- * @default 2.5
+ * @default 2.0
  *
  * @help このプラグインには、プラグインコマンドはありません。
  * キャラクター歩行時のステップアニメの速度を変更します。
 */
 
 (function(){
-	var shift = 2.5;
+	var shift = 2.0;
 	Game_CharacterBase.prototype.animationWait = function() {
     return (9 - this.realMoveSpeed()) * shift;
   };
