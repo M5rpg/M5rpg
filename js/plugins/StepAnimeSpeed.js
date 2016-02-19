@@ -3,12 +3,12 @@
 //=========================================================
 
 /*:
- * @plugindesc Plugin  to set charactors steping animation.
+ * @plugindesc Plugin to set charactors steping animation.
  * @author miyoshi
  *
  * @param shift
  * @desc Value to add shift. 
- * @default 2.5
+ * @default 0.8
  *
  *
  * @help This plugin does not provide plugin commands.
@@ -21,15 +21,21 @@
  *
  * @param shift
  * @desc スピード変更
- * @default 2.0
+ * @default 0.8
  *
  * @help このプラグインには、プラグインコマンドはありません。
  * キャラクター歩行時のステップアニメの速度を変更します。
 */
 
 (function(){
-	var shift = 2.0;
-	Game_CharacterBase.prototype.animationWait = function() {
-    return (9 - this.realMoveSpeed()) * shift;
-  };
+    var shift = 0.8;
+
+    Game_CharacterBase.prototype.updateAnimationCount = function() {
+    if (this.isMoving() && this.hasWalkAnime()) {
+        this._animationCount += 1.5 - shift;
+    } else if (this.hasStepAnime() || !this.isOriginalPattern()) {
+        this._animationCount += 1.0 - shift;
+    }
+};
+
 })();
