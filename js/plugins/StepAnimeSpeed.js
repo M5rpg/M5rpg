@@ -8,7 +8,7 @@
  *
  * @param shift
  * @desc Value to add shift. 
- * @default 0.8
+ * @default 0.5
  *
  *
  * @help This plugin does not provide plugin commands.
@@ -21,14 +21,14 @@
  *
  * @param shift
  * @desc スピード変更
- * @default 0.8
+ * @default 0.5
  *
  * @help このプラグインには、プラグインコマンドはありません。
  * キャラクター歩行時のステップアニメの速度を変更します。
 */
 
 (function(){
-    var shift = 0.8;
+    var shift = 0.5;
 
     Game_CharacterBase.prototype.updateAnimationCount = function() {
     if (this.isMoving() && this.hasWalkAnime()) {
