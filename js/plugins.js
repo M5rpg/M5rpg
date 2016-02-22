@@ -16,7 +16,7 @@ var $plugins =
 {"name":"AKUNOU_OptionWindowOpacity","status":true,"description":"オプションにウィンドウ透明度の変更を追加します。","parameters":{"Window Opacity Term":"ウィンドウ透明度","Window Opacity Offset":"0","Window Opacity Default":"255"}},
 {"name":"mv_actor_stepping_animation","status":true,"description":"Allows party leader/followers to have stepping anim on map","parameters":{}},
 {"name":"StepAnimeSpeed","status":true,"description":"ステップアニメの速度の変更","parameters":{"shift":"0.4"}},
-{"name":"Torigoya_RetryLoad","status":true,"description":"音声や画像の読み込み失敗時にリトライします","parameters":{"Retry Max":"3","Ignore Error: Audio":"false","Ignore Error: Image":"false"}},
+{"name":"Torigoya_RetryLoad","status":false,"description":"音声や画像の読み込み失敗時にリトライします","parameters":{"Retry Max":"3","Ignore Error: Audio":"false","Ignore Error: Image":"false"}},
 {"name":"Torigoya_InputNamePrompt","status":false,"description":"名前入力ダイアログ機能を追加します","parameters":{"Max Length":"10","Message":"名前を入力してください","Maximum Message":"(%1 文字以内で入力)"}}
 ];
 
