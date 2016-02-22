@@ -4,7 +4,7 @@
 
 /*:
  * @plugindesc Plugin to change speed of steping animation.
- * @author miyoshi
+ * @author poppo
  *
  * @param speed_shift
  * @desc Value to add shift. 
@@ -17,7 +17,7 @@
 
 /*:ja
  * @plugindesc ステップアニメの速度の変更
- * @author miyoshi
+ * @author ポッポ
  *
  * @param speed_shift
  * @desc スピード変更
