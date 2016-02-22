@@ -134,7 +134,7 @@ DPad OpelationRangeよりも大きめの数値を指定すると、入力が楽�
 
 @param Button Opacity
 @desc ボタンの不透明度(0～1) 初期値:0.7
-@default 0.7
+@default 1
 
 @param Vertical BtnZoom
 @desc スマホ縦持ちで表示したときの全ボタンの拡大率
