@@ -22,3 +22,4 @@ var $plugins =
 {"name":"BootOpeningDemo","status":false,"description":"タイトル画面を出す前にオープニングデモから開始します","parameters":{"firstMapId":"50","startX":"0","startY":"0"}}
 ];
 
+
