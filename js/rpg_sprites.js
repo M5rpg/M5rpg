@@ -1501,6 +1501,7 @@ Sprite_Damage.prototype.setup = function(target) {
 };
 
 Sprite_Damage.prototype.setupCriticalEffect = function() {
+    $gameScreen.startShake(5, 5, 120); 
     this._flashColor = [255, 0, 0, 160];
     this._flashDuration = 60;
 };
