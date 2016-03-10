@@ -5,7 +5,7 @@
     var SE_volume = 100;
 
     SoundManager.playLevelUp = function() {
-       var Se = {"name": "SE_name",
+       var Se = {"name": SE_name,
 		 "pan" : SE_pan,
 		 "pitch": SE_pitch,
 		 "volume": SE_volume
