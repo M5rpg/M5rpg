@@ -1,5 +1,5 @@
 (function () {
-    var SE_name = "LevelUp";
+    var SE_name = "Up2";
     var SE_pan = 0;
     var SE_pitch = 100;
     var SE_volume = 100;
