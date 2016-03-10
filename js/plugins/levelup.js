@@ -16,6 +16,7 @@
     Game_Actor.prototype.levelUp = function() {
     this._level++;
     SoundManager.playLevelUp();
+    AudioManager.stopMe();
     this.currentClass().learnings.forEach(function(learning) {
         if (learning.level === this._level) {
             this.learnSkill(learning.skillId);
