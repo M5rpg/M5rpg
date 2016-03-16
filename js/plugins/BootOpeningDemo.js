@@ -1,4 +1,4 @@
-//=============================================================================
+﻿//=============================================================================
 // BootOpeningDemo.js
 //=============================================================================
 
@@ -71,6 +71,7 @@
                     case 'end':
                         openingDemoEnd = true;
                         // タイトル画面へ遷移、通常のScene_Bootを開始する
+			$gameSystem.saveBgm();
                         SceneManager.goto(Scene_Title);
                         Window_TitleCommand.initCommandPosition();
                         break;
