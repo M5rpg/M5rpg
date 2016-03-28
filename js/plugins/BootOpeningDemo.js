@@ -237,7 +237,6 @@
 			      };
 		    AudioManager.playBgm(BGM);
 	    }
-	    openingflag = false;
 	    AudioManager.stopBgs();
 	    AudioManager.stopMe();
 	};
