@@ -224,10 +224,9 @@
 	};
 
 	Scene_Title.prototype.playTitleMusic = function() {
-	    if (openingflag )
+	    if (openingflag)
 	    {
 		    $gameSystem.replayBgm();
-		    openingflag = false;
 	    }
             else
 	    {
@@ -237,8 +236,8 @@
 				"volume": 100
 			      };
 		    AudioManager.playBgm(BGM);
-		    openingflag = false;
 	    }
+	    openingflag = false;
 	    AudioManager.stopBgs();
 	    AudioManager.stopMe();
 	};
