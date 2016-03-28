@@ -11,7 +11,6 @@ var $plugins =
 {"name":"AKUNOU_OptionWindowOpacity","status":true,"description":"オプションにウィンドウ透明度の変更を追加します。","parameters":{"Window Opacity Term":"ウィンドウ透明度","Window Opacity Offset":"0","Window Opacity Default":"255"}},
 {"name":"mv_actor_stepping_animation","status":true,"description":"Allows party leader/followers to have stepping anim on map","parameters":{}},
 {"name":"StepAnimeSpeed","status":true,"description":"ステップアニメの速度の変更","parameters":{"shift":"0.4"}},
-{"name":"Title_Setting","status":true,"description":"タイトル調整用プラグイン","parameters":{}},
 {"name":"ItemBook","status":true,"description":"アイテム図鑑です。アイテムの詳細なステータスを表示します。","parameters":{"Unknown Data":"？？？？？？","Price Text":"価格","Equip Text":"装備","Type Text":"タイプ"}},
 {"name":"EnemyBook","status":true,"description":"モンスター図鑑です。敵キャラの詳細なステータスを表示します。","parameters":{}},
 {"name":"levelup","status":true,"description":"レベルアップのSE追加","parameters":{"SE_name":"LevelUp","SE_pan":"0","SE_pitch":"100","SE_volume":"100"}},
