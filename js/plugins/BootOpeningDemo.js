@@ -224,19 +224,7 @@
 	};
 
 	Scene_Title.prototype.playTitleMusic = function() {
-	    if (openingflag)
-	    {
-		    $gameSystem.replayBgm();
-	    }
-            else
-	    {
-		    var BGM = {"name": Ship3,
-				"pan" : 0,
-				"pitch": 100,
-				"volume": 100
-			      };
-		    AudioManager.playBgm(BGM);
-	    }
+	    $gameSystem.replayBgm();
 	    AudioManager.stopBgs();
 	    AudioManager.stopMe();
 	};
