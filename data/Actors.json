@@ -6,5 +6,6 @@ null,
 {"id":4,"battlerName":"","characterIndex":5,"characterName":"actor","classId":3,"equips":[0,0,2,3,0],"faceIndex":6,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"たまご","nickname":"","note":"","profile":""},
 {"id":5,"battlerName":"","characterIndex":2,"characterName":"actor","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ゆうしゃ","nickname":"","note":"","profile":""},
 {"id":6,"battlerName":"","characterIndex":1,"characterName":"actor3","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"いしだ","nickname":"","note":"","profile":""},
-{"id":7,"battlerName":"","characterIndex":3,"characterName":"actor","classId":4,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ばかせ","nickname":"","note":"","profile":""}
+{"id":7,"battlerName":"","characterIndex":3,"characterName":"actor","classId":4,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"ばかせ","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":4,"characterName":"actor3","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"マック幼少期","nickname":"","note":"","profile":""}
 ]
